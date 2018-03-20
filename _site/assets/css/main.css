@@ -810,11 +810,11 @@ pre code {
   list-style: none;
 }
 .sidebar-menu .menu-links {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   text-transform: uppercase;
   display: block;
   text-decoration: none;
-  padding: 1rem 1.3rem;
+  padding: 2.0rem 1.3rem;
   color: #fff;
   font-weight: 700;
   -webkit-transition: all .35s;
