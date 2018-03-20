@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/oic/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/oic/" rel="alternate" type="text/html" /><updated>2018-03-20T16:11:39-04:00</updated><id>http://localhost:4000/oic/</id><title type="html">OIC</title><subtitle>Tutorials for Oracle Integration Cloud
+</subtitle><entry><title type="html">Tutorial 100: Getting Started</title><link href="http://localhost:4000/oic/tutorial100/" rel="alternate" type="text/html" title="Tutorial 100: Getting Started" /><published>2018-03-20T13:34:21-04:00</published><updated>2018-03-20T13:34:21-04:00</updated><id>http://localhost:4000/oic/tutorial100</id><content type="html" xml:base="http://localhost:4000/oic/tutorial100/">&lt;p&gt;This explains how to get started with the labs in this section.&lt;/p&gt;
+
+&lt;p&gt;Using your browser login to the Oracle Integration Cloud Environment provided by your instructor.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://oicdev-williams.uscom-central-1.oraclecloud.com/ic/home/&quot;&gt;Oracle Integation Cloud&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the username and password provided by your instructor (e.g. User01)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click on &lt;strong&gt;Integrations&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-20 at 3.35.22 PM.png&quot; alt=&quot;Integrations&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You are now ready to start configuring &lt;a href=&quot;/oic/adapters/index.html&quot;&gt;adapters&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">This explains how to get started with the labs in this section.</summary></entry><entry><title type="html">Tutorial 101: Using the REST Adapter</title><link href="http://localhost:4000/oic/tutorial101/" rel="alternate" type="text/html" title="Tutorial 101: Using the REST Adapter" /><published>2018-02-04T19:34:21-05:00</published><updated>2018-02-04T19:34:21-05:00</updated><id>http://localhost:4000/oic/tutorial101</id><content type="html" xml:base="http://localhost:4000/oic/tutorial101/">&lt;p&gt;This tutorial explains how to use the REST adapter to allow a user to make a REST call using JSON to trigger an integration.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;From the designer menu, choose &lt;strong&gt;Connections&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 12.13.12 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 12.13.12 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Create&lt;/strong&gt; button to start creating a new connection:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 12.17.11 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 12.17.11 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Type &lt;strong&gt;REST&lt;/strong&gt; in the search box to search for the REST adapter:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 12.37.55 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 12.37.55 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the &lt;strong&gt;REST&lt;/strong&gt; adapter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the connection: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Local REST &amp;lt;your initials&amp;gt;&lt;/code&gt;&lt;/strong&gt; as shown in the picture below:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set the Role to: &lt;strong&gt;Trigger&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 12.40.16 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 12.40.16 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click the &lt;strong&gt;Create&lt;/strong&gt; button&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The connection is successfully created.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the security policy: &lt;strong&gt;Basic Authentication&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click the &lt;strong&gt;Test&lt;/strong&gt; button to test the connection.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.17.15 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.17.15 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The percentage completion indicator should change to 100%.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.22.04 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.22.04 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Then click the &lt;strong&gt;Close&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.25.01 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.25.01 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The connection is now ready to use.&lt;/p&gt;</content><author><name></name></author><summary type="html">This tutorial explains how to use the REST adapter to allow a user to make a REST call using JSON to trigger an integration.</summary></entry><entry><title type="html">Tutorial 102: Using the File Adapter</title><link href="http://localhost:4000/oic/tutorial102/" rel="alternate" type="text/html" title="Tutorial 102: Using the File Adapter" /><published>2018-02-04T19:34:21-05:00</published><updated>2018-02-04T19:34:21-05:00</updated><id>http://localhost:4000/oic/tutorial102</id><content type="html" xml:base="http://localhost:4000/oic/tutorial102/">&lt;p&gt;This tutorial explains how to use the File adapter to allow an integration to process file operations like writing to a local file. This integration will leverage an agent.&lt;/p&gt;
+
+&lt;p&gt;From the designer menu, choose &lt;strong&gt;Connections&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 12.13.12 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 12.13.12 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the &lt;strong&gt;Create&lt;/strong&gt; button to start creating a new connection:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 12.17.11 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 12.17.11 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Type &lt;strong&gt;File&lt;/strong&gt; in the search box to search for the file adapter:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.32.19 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.32.19 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Select the &lt;strong&gt;File&lt;/strong&gt; adapter.&lt;/p&gt;
+
+&lt;p&gt;Name the connection: &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;File &amp;lt;your initials&amp;gt;&lt;/code&gt;&lt;/strong&gt; as shown in the picture below:&lt;/p&gt;
+
+&lt;p&gt;Set the Role to: &lt;strong&gt;Invoke&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.34.39 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.34.39 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Create&lt;/strong&gt; button&lt;/p&gt;
+
+&lt;p&gt;Select the &lt;strong&gt;Configure Agents&lt;/strong&gt; button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.35.31 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.35.31 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose the agent provided by your instructor &lt;strong&gt;Lloyds Macbookpro Agent&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.40.08 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.40.08 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure the agent is highlighted in blue and then click the &lt;strong&gt;Use&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.44.06 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.44.06 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Test&lt;/strong&gt; button to test the connection. If it is taking a long time and/or fails, ask your instructor to make sure that the agent is running.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.47.28 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.47.28 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The percentage completion indicator should change to 100%. Click on the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;Then click the &lt;strong&gt;Close&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./Screen Shot 2018-03-05 at 7.49.34 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.49.34 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The file connection is now ready to use.&lt;/p&gt;</content><author><name></name></author><summary type="html">This tutorial explains how to use the File adapter to allow an integration to process file operations like writing to a local file. This integration will leverage an agent.</summary></entry><entry><title type="html">Tutorial 103: REST to File Integration</title><link href="http://localhost:4000/oic/tutorial103/" rel="alternate" type="text/html" title="Tutorial 103: REST to File Integration" /><published>2018-02-04T19:34:21-05:00</published><updated>2018-02-04T19:34:21-05:00</updated><id>http://localhost:4000/oic/tutorial103</id><content type="html" xml:base="http://localhost:4000/oic/tutorial103/">&lt;p&gt;This tutorial explains how to create an integration that will use the REST adapter to accept a request that will trigger the File adapter to write a file. You will write a file to an on-premise system so the file adapter has been configured to use an agent.&lt;/p&gt;
+
+&lt;p&gt;From the designer menu, choose &lt;strong&gt;Integrations&lt;/strong&gt;. Click on the &lt;strong&gt;Create&lt;/strong&gt; button to start creating a new integration:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./images/tutorial103/Screen Shot 2018-03-05 at 7.59.50 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 7.59.50 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose the &lt;strong&gt;Style: Template with Pattern: Map Data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.02.54 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.02.54 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Name the Integration:  &lt;code class=&quot;highlighter-rouge&quot;&gt;REST to File Integtration &amp;lt;your initials&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The identifier and version number are automatically populated. Optionally, supply a description.&lt;/p&gt;
+
+&lt;p&gt;Supply the Package Name &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your initials&amp;gt;_WORKSHOP&lt;/code&gt;as shown in the picture&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.06.38 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.06.38 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Create&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;The integration has been created. Click the &lt;strong&gt;Save&lt;/strong&gt; button to save the work so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.09.23 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.09.23 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, you will work on the integration.&lt;/p&gt;
+
+&lt;p&gt;Type your initials in the connections search box on the right to find the connections that you previously created.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.11.58 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.11.58 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose the &lt;code class=&quot;highlighter-rouge&quot;&gt;Local REST &amp;lt;your initials&amp;gt;&lt;/code&gt; connection.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.15.03 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.15.03 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A wizard will appear to allow you to start configuring the REST interface.&lt;/p&gt;
+
+&lt;p&gt;Call the endpoint &lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;WritePersonToFile&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Provide a description for the endpoint.&lt;/p&gt;
+
+&lt;p&gt;The endpoint’s relative resource URI is: &lt;code class=&quot;highlighter-rouge&quot;&gt;/log/person&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Select &lt;code class=&quot;highlighter-rouge&quot;&gt;POST&lt;/code&gt;as the action that the endpoint performs.&lt;/p&gt;
+
+&lt;p&gt;Check the box: &lt;code class=&quot;highlighter-rouge&quot;&gt;Configure a request payload for this endpoint&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Verify that your configuration matches the screenshot below before clicking next.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.25.55 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.25.55 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Based upon your selections the wizard will take you to the next confguration screen. You will only need to complete some of the configuration items listed down the left hand side of the wizard.&lt;/p&gt;
+
+&lt;p&gt;Since  you didn’t check the box to add any request parameters, the wizard moves ahead to configuring the request which we did indicate we wanted to do when we checked the request payload box on the previous screen.&lt;/p&gt;
+
+&lt;p&gt;Choose the radio button &lt;strong&gt;JSON Sample&lt;/strong&gt; so you can supply a sample request format using JSON (Java Script Object Notation). Also select &lt;strong&gt;JSON&lt;/strong&gt; as the type of payload  you want the endpoint to receive.&lt;/p&gt;
+
+&lt;p&gt;Click on the link called &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; inline &amp;gt;&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt; after enter sample JSON to supply a sample format.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.33.38 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.33.38 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy and paste the following text in the box that pops-up:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;PersonId&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;300000157866799&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;Name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Lloyd&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you get an error message, you may need to re-type all of the quotation marks to get the correct character.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;OR&lt;/strong&gt; you could download this file to your computer &lt;a href=&quot;./misc/person.json&quot;&gt;person.json&lt;/a&gt; and then use the &lt;strong&gt;Browse&lt;/strong&gt; button to upload it to the cloud.&lt;/p&gt;
+
+&lt;p&gt;Then click the &lt;strong&gt;OK&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.41.20 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.41.20 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose &lt;strong&gt;Next&lt;/strong&gt; to move to the next configuation item in the wizard.&lt;/p&gt;
+
+&lt;p&gt;Since no more configuration is required, the wizard shows the &lt;strong&gt;Summary&lt;/strong&gt; tab.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.46.13 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.46.13 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;strong&gt;Done&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The integration is not finished yet, but click on the &lt;strong&gt;Save&lt;/strong&gt; button to save the work you have done so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.47.39 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.47.39 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that the percentage completion indicator has increased but it is not yet at 100% since we have not configured a connection to invoke.&lt;/p&gt;
+
+&lt;p&gt;Drag the **File &lt;your initials=&quot;&quot;&gt;** connection to the right hand side on top of **Drag and Drop an Invoke**&lt;/your&gt;&lt;/p&gt;
+
+&lt;p&gt;A wizard will pop-up allowing you to configure the file adapter connection.&lt;/p&gt;
+
+&lt;p&gt;Call the endpoint &lt;strong&gt;LogPersonToFile&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Leave the default options:&lt;/p&gt;
+
+&lt;p&gt;Yes - define a schema for this endpoint and&lt;/p&gt;
+
+&lt;p&gt;Create a new schema from a CSV file&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.51.41 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.51.41 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button to move to the next section of the configuration wizard.&lt;/p&gt;
+
+&lt;p&gt;Specify the Output Directory: &lt;code class=&quot;highlighter-rouge&quot;&gt;/data/tutorial103&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: This is a directory on the computer where the agent is running since this adapter is configured to use an agent.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Specify a File Name Pattern: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;your initials&amp;gt;_Person_%SEQ%.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 8.57.36 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 8.57.36 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then click the &lt;strong&gt;Next&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;Either download this sample CSV file: &lt;a href=&quot;./misc/PersonId.csv&quot;&gt;PersonId.csv&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;OR Create a file on your own computer that is called &lt;strong&gt;PersonId.csv&lt;/strong&gt; with the following two lines of content.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PersonId,Name&lt;/code&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;300000157866789,Lloyd&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the **Browse… button and choose the PersonId.csv on your computer.&lt;/p&gt;
+
+&lt;p&gt;Enter the Record Name: &lt;code class=&quot;highlighter-rouge&quot;&gt;Person&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter the Recordset Name: &lt;code class=&quot;highlighter-rouge&quot;&gt;People&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.09.56 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.09.56 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that the fields PersonId and Name were populated as Mandatory and the type format String was set.  We will leave these defaults, but in the future you could change as needed.&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Next&lt;/strong&gt; button. The configuration wizard moves to the summary section.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.15.07 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.15.07 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then click the &lt;strong&gt;Done&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;Notice that the integration updates and the percentage completion updates. Click the &lt;strong&gt;Save&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.15.53 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.15.53 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will find in the middle an icon linking the two connections called &lt;strong&gt;Click Below to Create Map&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Click that icon to start to create a mapping. Click the &lt;strong&gt;+ icon&lt;/strong&gt; to create a new mapping.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.18.27 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.18.27 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A mapping wizard will appear. Drag from the &lt;code class=&quot;highlighter-rouge&quot;&gt;PersonId&lt;/code&gt; in the source to the &lt;code class=&quot;highlighter-rouge&quot;&gt;PersonId&lt;/code&gt; under &lt;code class=&quot;highlighter-rouge&quot;&gt;People/Person&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.20.52 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.20.52 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.22.33 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.22.33 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Do the same for the &lt;code class=&quot;highlighter-rouge&quot;&gt;Name&lt;/code&gt; field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.25.18 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.25.18 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then click the &lt;strong&gt;Validate&lt;/strong&gt; button and then the &lt;strong&gt;Close&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.26.59 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.26.59 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Save&lt;/strong&gt; button. Notice the completion percentage is not yet at 100%. This is because we need to configure the tracking option. Choose the menu next to the Last Saved field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.29.42 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.29.42 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose &lt;strong&gt;Tracking&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.31.10 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.31.10 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;drag-the-personid-from-the-left-to-the-beginning-of-the-first-box-under-the-tracking-field-column&quot;&gt;Drag the &lt;code class=&quot;highlighter-rouge&quot;&gt;PersonId&lt;/code&gt; from the left to the beginning of the first box under the &lt;strong&gt;Tracking Field&lt;/strong&gt; column.&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;You’ll notice that the background of the field turns light blue when the field is ready to be dropped.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.32.09 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.32.09 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Drag the &lt;code class=&quot;highlighter-rouge&quot;&gt;Name&lt;/code&gt; to the second row under Tracking field. Only the first field will get a green check-mark as the primary tracking field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.32.17 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.32.17 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click &lt;strong&gt;Save&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.36.33 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.36.33 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that the the integration is now at 100% and ready to activate. Click &lt;strong&gt;Close&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that there is an actions menu associated with this integration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 9.39.47 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 9.39.47 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can activate from this menu or use switch button to activate the integration.&lt;/p&gt;
+
+&lt;p&gt;A pop-up box will appear to allow you to configure some options for the activation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.05.45 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.05.45 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Uncheck the box to contribute to the recommendations engine.&lt;/p&gt;
+
+&lt;p&gt;Check the box to &lt;strong&gt;Enable Tracing&lt;/strong&gt; and &lt;strong&gt;Include payload&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In a production environment, you may not want to enable tracing if you have sensitive information that you do not want appearing in the logs, but for development of the integrations it’s good to do until you are sure that your integration is working as expected. It will make debugging any problems much easier.&lt;/p&gt;
+
+&lt;p&gt;A message appears showing that the integration is activating.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.09.27 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.09.27 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will need to click on the &lt;strong&gt;Refresh&lt;/strong&gt; icon to see if the integation has finished activating.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.10.54 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.10.54 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you can click on the link provided in the green message bar to see the metadata related to the integration. A new tab should open in your browser which contains all the details about this integration including the Endpoint URL, the Swagger definition and the resource details including a sample of the request.&lt;/p&gt;
+
+&lt;p&gt;If need to find the metadata link for this integration, after you have closed the green notification, you can find it using the gear icon that appears next to the activation switch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 11.19.21 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.19.21 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.13.21 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.13.21 AM&quot; /&gt;The integration is now ready to run. It’s best to use a tool for testing REST interfaces (for example Postman or SOAP-UI) to test the interface. In this tutorial, we will use Postman which is available as a stand-alone install or a Chrome browser plug-in.&lt;/p&gt;
+
+&lt;p&gt;If you don’t already have a tool that you are very comfortable using, you should download and install Postman from: &lt;a href=&quot;https://www.getpostman.com/apps&quot;&gt;https://www.getpostman.com/apps&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In Postman, set-up a &lt;strong&gt;POST&lt;/strong&gt; request using the Endpoint URL.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NOTE: Be sure to use your own endpoint URL from the Endpoint Description page  (don’t paste into Postman the URL one that ends in /metadata, but you can use that link in your browser to find the endpoint URL).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy it from your own Endpoint Description page. It will be in a format that contains your initials in the name.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.33.46 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.33.46 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Set the Authorization to &lt;strong&gt;Basic Auth&lt;/strong&gt; and supply the username and password provided to you by your instructor. (e.g User01)&lt;/p&gt;
+
+&lt;p&gt;Click on the &lt;strong&gt;Body&lt;/strong&gt; tab in Postman.&lt;/p&gt;
+
+&lt;p&gt;Choose the format &lt;strong&gt;raw&lt;/strong&gt; and from the drop-down list &lt;strong&gt;choose the JSON (application/json)&lt;/strong&gt; option (from the drop-down list next to the binary radio button).&lt;/p&gt;
+
+&lt;p&gt;Copy the request sample payload and paste it in the body section. You can optionally change the value for the&lt;code class=&quot;highlighter-rouge&quot;&gt;PersonId&lt;/code&gt; string and the &lt;code class=&quot;highlighter-rouge&quot;&gt;Name&lt;/code&gt; string to a different value. You should use you own name to make it easier for the instructor to find the file on the server running the connectivity agent.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.36.18 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.36.18 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that &lt;code class=&quot;highlighter-rouge&quot;&gt;Authorization&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Content-Type&lt;/code&gt; Headers were generated automatically. You do not need to adjust these values.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.40.05 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.40.05 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the &lt;strong&gt;Send&lt;/strong&gt; button to send the request.&lt;/p&gt;
+
+&lt;p&gt;Since this integration is very simple, you will only see a message as a status like: &lt;code class=&quot;highlighter-rouge&quot;&gt;202 Accepted&lt;/code&gt;without any response since we didn’t configure one.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.42.48 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.42.48 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ask your instructor to check and see if your file was created on the computer running the agent.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.30.37 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.30.37 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If it did, then you have seen how someone with the appropriate security permissions can make a call to an interface in the cloud and create a file on the local file system which was configured with the Oracle Integration Cloud (OIC) connectivity agent.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Congratulations!&lt;/strong&gt; You have built your first integration using Oracle Integration Cloud in a browser using Drag-and-Drop without writing any code and you were able to integrate seemlessly between cloud and on-premise environments simply by associating an agent configuration with one of the adapter connections.&lt;/p&gt;
+
+&lt;p&gt;You can now save this integration on your local file system by choosing the &lt;strong&gt;Export&lt;/strong&gt; option from the integration’s menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.50.26 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.50.26 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.57.15 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.57.15 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The resulting .iar file can be put in source control and/or imported into the QA or Production environments. You will need to configure the connection settings and user name and passwords after you import it into another environment. The security infomation (i.e. usernames and passwords) is not exported with the integration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial103/Screen Shot 2018-03-05 at 10.53.45 AM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 10.53.45 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This concludes tutorial103. You now have a basic understanding of how Oracle Integration Cloud integrations are created and are ready to build more complex examples.&lt;/p&gt;</content><author><name></name></author><summary type="html">This tutorial explains how to create an integration that will use the REST adapter to accept a request that will trigger the File adapter to write a file. You will write a file to an on-premise system so the file adapter has been configured to use an agent.</summary></entry><entry><title type="html">Tutorial 104: Monitoring</title><link href="http://localhost:4000/oic/tutorial104/" rel="alternate" type="text/html" title="Tutorial 104: Monitoring" /><published>2018-02-04T19:34:21-05:00</published><updated>2018-02-04T19:34:21-05:00</updated><id>http://localhost:4000/oic/tutorial104</id><content type="html" xml:base="http://localhost:4000/oic/tutorial104/">&lt;p&gt;This tutorial shows you how to monitor integrations.&lt;/p&gt;
+
+&lt;p&gt;From the left-side menu, choose &lt;strong&gt;Monitoring&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.10.47 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.10.47 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on &lt;strong&gt;Dashboards&lt;/strong&gt; to view statistics on the health of the system.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.53.07 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.53.07 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that you have the option to change a drop-down menu to view the System Health and the Design-Time metrics. Go ahead and take a look at these dashboards.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.55.13 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.55.13 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.53.07 PM-0312164.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.53.07 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on the &lt;strong&gt;Agents&lt;/strong&gt; to monitor the connectivity agents.&lt;/p&gt;
+
+&lt;p&gt;Expand the triangle next to Agent Group name (e.g. Lloyds Macbookpro Agent) to see the status of the individual agents that were previously configured.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.29.54 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.29.54 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next click on Integrations in the left-hand side menu. Find the integration that you created containing your initials.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Notice that you can change the time period if you are interested in viewing the status of the integrations that executed over a longer period of time.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.33.07 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.33.07 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can click on the # for each of the status items (e.g. Received, Processed, Success, Errors). Click on the number of &lt;strong&gt;Recieved&lt;/strong&gt;,&lt;/p&gt;
+
+&lt;p&gt;You will see the tracking page with a list of all the instances.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.37.12 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.37.12 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that the Person Id is shown since this was your tracking field. It is a link that will take you a picture of the integration that is high-lighted in green to show the path that the execution took at run-time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.38.49 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.38.49 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is a menu in the top right corner which contains options for viewing all the business identifiers, errors, the audit trail and the activity stream.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.41.03 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.41.03 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click on &lt;strong&gt;View Audit Trail&lt;/strong&gt;. A box will appear showing you the basic activities which took place related to this integration.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.42.42 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.42.42 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;strong&gt;Close&lt;/strong&gt; button.&lt;/p&gt;
+
+&lt;p&gt;Click on the menu at the top again, but this time choose &lt;strong&gt;View Activity Stream&lt;/strong&gt;. This time a different box appears that also contains triangles which can be expanded to view the payload formats.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.46.39 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.46.39 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is very useful for debugging.&lt;/p&gt;
+
+&lt;p&gt;Click the menu again and choose &lt;strong&gt;Business Identifiers&lt;/strong&gt;. You should see the values that you provided when you ran the integration, since they were both set-up as tracking fields.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images/tutorial104/Screen Shot 2018-03-05 at 11.47.31 PM.png&quot; alt=&quot;Screen Shot 2018-03-05 at 11.47.31 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This completes this monitoring tutorial. When you do the more complex &lt;strong&gt;Orchestration&lt;/strong&gt; integrations, you will see the value of knowing which path each individual execution of an integration took since you will be able to supply branching logic based on the values that are being processed at run-time.&lt;/p&gt;</content><author><name></name></author><summary type="html">This tutorial shows you how to monitor integrations.</summary></entry></feed>
